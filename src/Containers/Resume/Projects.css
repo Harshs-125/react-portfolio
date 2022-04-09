@@ -1,0 +1,55 @@
+.project-container{
+    width:100%;
+    height:90%;
+}
+.project-parent{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding:25px 0; 
+}
+.project-card{
+    width:90%;
+    height:50%;
+    margin:8px 0px;
+}
+.project-tools{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-heading{
+   
+}
+.project-heading div{
+    background-color: #F76E11;
+    color: white;
+    width:20%;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.project-heading p{
+    font-size: 1rem;
+    color: #7882a4;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.project-tools span{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+.project-tools div{
+   width: auto;
+    height:auto;
+    padding:5px;
+    background-color: #0e185f;
+    border-radius: 20px;
+    color:white;
+    margin: auto 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
